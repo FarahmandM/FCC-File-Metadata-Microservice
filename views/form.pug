@@ -1,0 +1,19 @@
+doctype html
+html
+   head
+      title File Metadata Microservice > Form | FreeCodeCamp | Farahmand Moslemi
+      link(rel='shortcut icon', href='https://farahmandm.github.io/favicon.ico', type='image/x-icon')
+      link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto')
+      link(rel='stylesheet', href='/public/style.css')
+
+   body
+      div(class="container")
+        h1
+          a(href="/" title="Back to Homepage") File Metadata Microservice
+          |  > Form | Farahmand Moslemi
+        h2 Part 5 of Free Code Camp Backend Challenges
+        p
+          strong Select a file to upload and view its size:
+          form(method="post" action="/result" enctype="multipart/form-data")
+            input(type="file" name="myFile")
+            input(type="submit" name="Submit")

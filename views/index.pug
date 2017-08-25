@@ -1,0 +1,28 @@
+doctype html
+html
+   head
+      title File Metadata Microservice | FreeCodeCamp | Farahmand Moslemi
+      //link(rel='shortcut icon', href='https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico', type='image/x-icon')
+      link(rel='shortcut icon', href='https://farahmandm.github.io/favicon.ico', type='image/x-icon')
+      link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto')
+      link(rel='stylesheet', href='/public/style.css')
+
+   body
+      div(class="container")
+        h1 File Metadata Microservice | Farahmand Moslemi
+        h2 Part 5 of Free Code Camp Backend Challenges
+        p
+          strong User stories:
+          ol
+            li I can submit a FormData object that includes a file upload.
+            li When I submit something, I will receive the file size in bytes within the JSON response.
+        p
+          strong Usage:
+          br
+          | Click on the link below to see the form:
+          br
+          a(href="/form" title="Upload form") #{base}/form
+        p
+          strong Example of result:
+          br
+          code {"size":6514}
